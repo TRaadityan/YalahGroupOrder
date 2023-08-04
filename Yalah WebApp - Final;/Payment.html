@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Zurb/css/foundation.css">
+    <link rel="stylesheet" href="Zurb/css/app.css">
+    <link rel="stylesheet" href="Zurb/css/Payment.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Payment</title>
+</head>
+
+<body>
+    <section class="masterContent">
+    <!--Header-->
+    <section class="header grid-x">
+        <button type="backButton">
+            <img src="Assets/Icons/ABack button.svg" alt="Back Button">
+        </button>
+        <h1 class="auto cell">Payment</h1>
+    </section>
+
+    <!--Order Details-->
+    <section class="orderDetails grid-y cell auto">
+        <section class="grid-x">
+            <section class="cell auto grid-y">
+                <span class="deliveringTo">Deliver to Home  •  20 Mins</span>
+                <span class="deliveringAddress">8-23/123 Jumeriah Village, Street 73</span>
+            </section>
+            <button class="textCTA">Change</button>
+        </section>
+
+        <div class="dividerLine"></div>
+
+        <section class="orderTotal grid-x">
+            <span class="orderT cell auto">Order Total</span>
+            <section class="totalAmount">
+                <span class="currency">AED</span>
+                <span class="currencyAmount">18</span>
+            </section>
+        </section>
+    </section>
+
+    <!--Wallet-->
+    <section class="yalahWallet grid-x">
+        <div class="iconPlacement">
+            <img src="Assets/Icons/AYalah Wallet.svg" alt="logo1">
+        </div>
+        <section class="cell auto walletDetails grid-y">
+            <span class="walletTitle">Yalah Wallet Balance</span>
+            <span class="walletBalance">AED245</span>
+        </section>
+        <div class="switch tiny switchRound">
+            <input class="switch-input" id="tinySwitch" type="checkbox" name="exampleSwitch">
+            <label class="switch-paddle" for="tinySwitch">
+                <span class="show-for-sr">Tiny Sandwiches Enabled</span>
+            </label>
+        </div>
+    </section>
+
+    <!--Preferred Payment-->
+    <section class="paymentOptions">
+        <h3>Preferred Payment</h3>
+        <section class="options">
+            <section class="paymentOp">
+                <section class="individualPayment grid-x">
+                    <div class="iconPlacement">
+                        <img src="Assets/Icons/AVisa Card.svg" alt="logo1">
+                    </div>
+                    <span class="cell auto paymentTitle">•••• •••• •••• 1234</span>
+                    <input class="box1" type="checkbox">
+                </section>
+            </section>
+
+            <div class="dividerLine"></div>
+
+            <section class="individualPayment grid-x">
+                <div class="iconPlacement">
+                    <img src="Assets/Icons/AApple Pay.svg" alt="logo1">
+                </div>
+                <span class="cell auto paymentTitle">Apple Pay</span>
+                <input class="box1" type="checkbox">
+            </section>
+        </section>
+    </section>
+
+    <!--Credit/Debit Card-->
+    <section class="paymentOptions">
+        <h3>Preferred Payment</h3>
+        <section class="options">
+            <section class="paymentOp">
+                <section class="individualPayment grid-x">
+                    <div class="iconPlacement">
+                        <img src="Assets/Icons/AVisa Card.svg" alt="logo1">
+                    </div>
+                    <span class="cell auto paymentTitle">•••• •••• •••• 1234</span>
+                    <input class="box1" type="checkbox">
+                </section>
+            </section>
+
+            <div class="dividerLine"></div>
+
+            <section class="individualPayment grid-x">
+                <div class="iconPlacement">
+                    <img src="Assets/Icons/AMastercard.svg" alt="logo1">
+                </div>
+                <span class="cell auto paymentTitle">Apple Pay</span>
+                <input class="box1" type="checkbox">
+            </section>
+            <div class="dividerLine"></div>
+            <div class="addCTA">
+                <img src="Assets/Icons/AAdd.svg" alt="+icon">
+                <button class="textCTA">ADD Card</button>
+            </div>
+        </section>
+    </section>
+
+    <!--Other Payment Methods-->
+    <section class="paymentOptions">
+        <h3>Other Payment Methods</h3>
+        <section class="options">
+            <section class="paymentOp">
+                <section class="individualPayment grid-x">
+                    <div class="iconPlacement">
+                        <img src="Assets/Icons/AWallet.svg" alt="logo1">
+                    </div>
+                    <span class="cell auto paymentTitle">Wallets</span>
+                    <button type="backButton">
+                        <img class="cell auto" src="Assets/Icons/ArightArrow.svg" alt="Back Button">
+                    </button>
+                </section>
+            </section>
+
+            <div class="dividerLine"></div>
+
+            <section class="individualPayment grid-x">
+                <div class="iconPlacement">
+                    <img src="Assets/Icons/Anetbanking.svg" alt="logo1">
+                </div>
+                <span class="cell auto paymentTitle">Netbanking</span>
+                <button type="backButton">
+                    <img class="cell auto" src="Assets/Icons/ArightArrow.svg" alt="Back Button">
+                </button>
+            </section>
+
+            <div class="dividerLine"></div>
+
+            <section class="individualPayment grid-x">
+                <div class="iconPlacement">
+                    <img src="Assets/Icons/Acash_on_delivery.svg" alt="logo1">
+                </div>
+                <span class="cell auto paymentTitle">Cash On Delivery</span>
+                <input class="box1" type="checkbox">
+            </section>
+        </section>
+    </section>
+
+    <section class="finalPay">
+        <a href="orderPlaced.html">
+        <button class="primaryCTA cell auto">Pay AED 20</button>
+    </a>
+    </section>
+    </section>
+
+
+</body>
+</html>

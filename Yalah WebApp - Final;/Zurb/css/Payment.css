@@ -1,0 +1,259 @@
+/*Global*/
+
+body {
+    background: #F7FCFF;
+    font-family: 'Barlow', sans-serif;
+}
+
+.payment-popup-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+/* Header */
+.header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #050609;
+    font-family: 'Barlow', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header {
+    margin: 28px 28px 24px 28px;
+}
+
+/* Order Details */
+.orderDetails {
+    background: #F8FAFF;
+    padding: 12px 28px;
+    border: 1px solid #CFD5E5;
+    margin-bottom: 24px;
+}
+
+.deliveringTo {
+    color: #0F131C;
+    font-size: 14px;
+    font-family: Barlow;
+    font-weight: 600;
+}
+
+.deliveringAddress {
+    color: #474D58;
+    font-size: 12px;
+    font-family: Barlow;
+    line-height: 16px;
+}
+
+.orderT {
+    font-size: 14px;
+    font-family: Barlow;
+    font-weight: 600;
+    line-height: 20px;
+    color: #19202E;
+}
+
+.currency {
+    font-size: 14px;
+    font-family: Barlow;
+    font-weight: 600;
+    color: #19202E;
+}
+
+.currencyAmount {
+    color: #19202E;
+    font-size: 24px;
+    font-family: Barlow;
+    font-weight: 600;
+}
+
+.orderTotal {
+    display: flex;
+    align-items: center;
+}
+
+.textCTA {
+    color: #533082;
+    text-align: right;
+    font-size: 14px;
+    font-family: Barlow;
+    font-weight: 700;
+}
+
+/*Divider*/
+.dividerLine {
+    border-top: 1px dashed #CFD5E5;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+/*Yalah Wallet*/
+.yalahWallet {
+    border-radius: 6px;
+    border: 1px solid #CFD5E5;
+    background: #F8FAFF;
+    margin: 28px 28px 24px 28px;
+    padding: 12px;
+    gap: 12px;
+}
+
+.iconPlacement img {
+    display: flex;
+    width: 64px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #C4D5DF;
+    background: #F6FCFF;
+}
+
+.walletTitle {
+    color: #19202E;
+    font-size: 14px;
+    font-family: Barlow;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.walletBalance {
+    color: #19202E;
+    font-size: 12px;
+    font-family: Barlow;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+
+/*Payment Options*/
+.paymentOptions {
+    border-radius: 6px;
+    border: 1px solid #CFD5E5;
+    margin: 28px 28px;
+}
+
+h3 {
+    color: #757982;
+    font-size: 10px;
+    font-family: Barlow;
+    font-weight: 700;
+    line-height: 14px;
+    text-transform: uppercase;
+    border-radius: 6px 6px 0px 0px;
+    background: #F8FAFF;
+    padding: 12px;
+    margin-bottom: 0px;
+}
+
+.options{
+    padding: 12px;
+}
+
+.individualPayment {
+    gap: 8px;
+    padding: 0px;
+    padding-bottom: 0px;
+}
+
+.box1{
+    margin-bottom: 0px;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #F8FAFF;
+}
+
+.iconPlacement {
+    display: flex;
+    width: 64px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #C4D5DF;
+    background: #F6FCFF;
+}
+
+.switchRound{
+    
+}
+
+.paymentTitle{
+    color: #19202E;
+    font-size: 14px;
+    font-family: Barlow;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.addCTA{
+    justify-content: center;
+    align-items: center;
+}
+
+.finalPay{
+    background: #F6FCFF;
+    display: flex;
+    height: 54px;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    border-radius: 6px;
+    border: 1px solid #C4D5DF;
+    background: var(--gradients-purple-gradient, linear-gradient(60deg, #543082 0%, #694C9F 100%));;
+    margin: 24px 28px 28px 28px; 
+}
+
+.primaryCTA{
+    color: #FCFDFF;
+    text-align: center;
+    font-size: 18px;
+    font-family: Barlow;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.textCTA{
+    justify-content: center;
+    align-items: center;
+}
+
+/* Responsive Desktop*/
+@media screen and (min-width: 64em) {
+.masterContent {
+        width: 30%; /* Adjust the width as needed */
+        margin-left: auto;
+        background-color: #F6FCFF;
+        height: 140vh;
+    }
+
+    body {
+        background: rgba(52, 63, 70, 0.8);
+    }
+
+    .closeTop {
+        padding: 28px 28px 0px 28px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .orderDetails {
+        margin-bottom: 28px;
+    }
+
+    .sticky-footer {
+        position: sticky;
+        margin-top: 210px;
+        margin-bottom: 28px;
+        margin-left: 0px;
+        margin-right: 0px;
+}

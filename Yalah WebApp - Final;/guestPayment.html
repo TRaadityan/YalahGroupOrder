@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Zurb/css/foundation.css">
+    <link rel="stylesheet" href="Zurb/css/guestPayment.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Payment Preference</title>
+</head>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Meta tags and stylesheets here -->
+    <title>Payment Preference</title>
+  </head>
+  <body>
+    <section class="masterContent">
+      <!--Top CTA-->
+      <section class="closeTop grid-x">
+        <button onclick="closeOverlay()" class="closeButton" type="button">
+          <img class="cell auto" src="Assets/Icons/KcloseIcon.svg" alt="Close Button">
+        </button>
+      </section>
+
+      <!--Payment Preference-->
+      <section class="header grid-x">
+        <section class="cell auto">
+          <h1>Payment Preference</h1>
+          <p class="howTo">You can cover the order, or let guests pay for the items they pick</p>
+        </section>
+      </section>
+
+      <section class="groupOrderRules">
+        <section class="grid-x grid-margin-x cell align-middle">
+          <img class="cell shrink" src="Assets/Icons/KbankCard.svg" alt="Bank Card">
+          <div class="cell auto">
+            <h3>You pay for everyone</h3>
+          </div>
+          <div class="cell shrink" style="margin-left: auto;">
+            <input type="radio" name="payment_preference" id="pay_for_everyone" value="pay_for_everyone">
+          </div>
+        </section>
+      </section>
+      
+
+       <!--Enter Amount-->
+       <section>
+        <div class="grid-x align-center">
+          <div class="cell small-12 medium-12">
+            <button class="button" type="button">
+              <span class="left-text">AED Enter Amount</span>
+              <span class="right-text">/per guest</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+       <!-- Dotted line below the button -->
+       <div class="divider"></div>
+
+      <section class="grid-x grid-margin-x cell">
+        <img class="cell shrink" src="Assets/Icons/KPayicon.svg" alt="Pay icon">
+        <div class="cell auto">
+          <h3> Guests pay for themselves</h3>
+        </div>
+        <div class="cell shrink" style="margin-left: auto;">
+          <input type="radio" name="payment_preference" id="pay_for_everyone" value="pay_for_everyone">
+        </div>
+        </div>
+      </section>
+
+      <!--Save BUTTON-->
+      <section class="sticky-footer">
+        <div class="grid-x align-center">
+          <div class="cell small-12 medium-12">
+              <button class="cell auto" type="submit">Save</button>
+          </div>
+        </div>
+      </section>
+  </body>
+</html>

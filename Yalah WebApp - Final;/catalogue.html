@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Zurb-->
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./Zurb/css/foundation.css"> 
+        <link rel="stylesheet" href="./Zurb/css/catalogue.css">
+
+        <!--Font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+        <title> Catalogue </title>
+    </head>
+    
+    <body>
+
+          <!--Top CTA-->
+      <section class="closeTop grid-x sticky-top-bar">
+        <button type="Backbutton">
+            <img class="cell auto" src="Assets/Icons/Left Arrow.svg" alt="Back Button">
+        </button>
+        <img class="cell auto topImage" src="Assets/Icons/McD.svg" alt="Back Button">
+        <button type="Heart">
+            <img class="cell auto" src="Assets/Icons/Search.svg" alt="Back Button">
+        </button>
+      </section>
+
+            <!--Top CTA Desktop-->
+      <section class="closeTopDesktop grid-x sticky-top-bar">
+        <button type="Backbutton">
+            <img class="cell auto" src="Assets/Icons/Left Arrow.svg" alt="Back Button">
+        </button>
+        <section class=" cell auto searchBar">
+        <input type="text" placeholder="Search.." name="search" class="searchBarIn">
+        </section>
+        <button type="Heart">
+            <img class="cell auto" src="Assets/Icons/Search Field.svg" alt="Back Button">
+        </button>
+      </section>
+      
+      <!-- wallpaper -->
+      <section class="wallpaper grid-x">
+        <img class="WallpaperPic" src="Assets/Icons/Image.svg" alt="Back Button">
+      </section>
+
+
+      <!-- split Screen -->
+      <div class="cell medium-auto medium-cell-block-container Splitscreen">
+        <div class="grid-x grid-padding-x">
+          <!-- left side -->
+          <div class="cell medium-4 medium-cell-block-y leftSide">
+            <img class="Dp" src="Assets/Icons/Dp.svg" alt="Back Button">
+        <section class="leftSlot grid-x">
+          <section class="cell auto">
+            <h1>Kentucky Fried Chicken</h1>
+            <p>For fast food, wraps and Burgers</p>
+            <p><span><img class="cell auto star" src="Assets/Icons/Star.svg" alt="Back Button"></span><span class="rating"> 4.0</span> (1000+ Ratings)</p>
+            <div class="dividerHeader"></div>
+            <p class="location">Jumeirah Towers, Dubai</p>
+            <p class="location">AED10 for two </p>
+            <p class="location">Live Tracking Available </p>
+            <div class="dividerHeader"></div>
+            <p onclick="showOverlay()">Start Group Order</p>
+            <div class="dividerHeader"></div>
+            <p>Menu</p>
+            <h1>Recommened</h1>
+            <h2>Snacks</h2>
+            <h2>Fried Chicken</h2>
+            <h2>Rice Bowls</h2>
+            <h2>Sides</h2>
+            <h2>Beverages</h2>
+          </section>
+            <section class="cell shrink">
+              <button class="invite-button" type="button">
+                  <img src="Assets/Icons/Heart.svg" alt="User Icon">
+              </button>
+           </section>
+        </section>
+          </div>
+
+          <!-- Rigth side -->
+          <div class="cell medium-8 medium-cell-block-y rightSide" style=" padding-left: 0px;   padding-right: 0px;">
+             
+            <!-- Desktop list -->
+            <!-- Recommended -->
+        <section class="grid-x RecommenedX">
+          <div class="cell auto">
+            <h1>Recommended</h1>
+          </div>  
+          <section class="grid-y">
+              <section class="Reveal">
+                <section class="quantityButton">
+                  <img src="Assets/Icons/Container.svg" alt="User Icon">
+                  <img src="Assets/Icons/Chevron Down cr-fr.svg" alt="User Icon">  
+                </section>
+              </section>
+          </section>
+        </section>
+
+        <!--items-->
+        <section class="cartBreakdownX">
+
+          <!-- item 1 -->
+        <section class="grid-x items">
+            <div class="cell auto">
+              <img src="Assets/Icons/Food Indicators.svg" alt="User Icon">
+                <h1>McChicken</h1>
+                <span id="item"class="itemPrice">20</span>
+                <p>Chicken patty burger with lettuce and mayo and fresh buns </p>
+            </div>
+          <section class="grid-y">
+              <section class="imageDisplay">
+                <img src="Assets/Icons/Image.svg" alt="User Icon" class="pics"> 
+              </section>
+              <section class="addImage" style="display: none;">
+                <span class="Dminus">-</span>
+                <span class="Dnum">01</span>
+                <span class="Dplus">+</span>
+              </section>
+              <section class="addImageOne">
+                <p>+ Add</p>
+              </section>
+          </section>
+        </section>
+
+          <div class="dividerHeader"></div>
+          
+          <!-- item 2 -->
+          <section class="grid-x items">
+            <div class="cell auto">
+              <img src="Assets/Icons/Food Indicators.svg" alt="User Icon">
+                <h1>McChicken</h1>
+                <span id="item1" class="itemPrice">18</span>
+                <p>Chicken patty burger with lettuce and mayo and fresh buns </p>
+            </div>
+            <section class="grid-y">
+                <section class="imageDisplay">
+                  <img src="Assets/Icons/Image.svg" alt="User Icon" class="pics"> 
+                </section>
+                <section class="addImageOne">
+                  <p>+ Add</p>
+                </section>
+            </section>
+         </section>
+
+         <div class="dividerHeader"></div>
+
+         <!-- item 3 -->
+         <section class="grid-x items">
+            <div class="cell auto">
+              <img src="Assets/Icons/Food Indicators.svg" alt="User Icon">
+                <h1>McChicken</h1>
+                <span class="itemPrice">AED 19</span>
+                <p>Chicken patty burger with lettuce and mayo and fresh buns </p>
+            </div>
+            <section class="grid-y">
+                <section class="imageDisplay">
+                  <img src="Assets/Icons/Image.svg" alt="User Icon" class="pics">
+                </section>
+                <section class="addImage">
+                <p>+ Add</p>
+                </section>
+            </section>
+         </section>
+
+        <div class="dividerHeader"></div>
+
+        <!-- item 4 -->
+        <section class="grid-x items">
+          <div class="cell auto">
+            <img src="Assets/Icons/Food Indicators.svg" alt="User Icon">
+              <h1>McChicken</h1>
+              <span class="itemPrice">AED 19</span>
+              <p>Chicken patty burger with lettuce and mayo and fresh buns </p>
+          </div>
+          <section class="grid-y">
+              <section class="imageDisplay">
+                <img src="Assets/Icons/Image.svg" alt="User Icon" class="pics">
+              </section>
+              <section class="addImage">
+              <p>+ Add</p>
+              </section>
+          </section>
+        </section>
+    </section>
+          </div>
+        </div>
+      </div>
+
+      <!--Restaurant name-->
+      
+      <section class="header grid-x">
+          <section class="cell auto">
+              <h1>Mc Donald’s</h1>
+              <p>For fast food, wraps and Burgers</p>
+              <p><span><img class="cell auto star" src="Assets/Icons/Star.svg" alt="Back Button"></span><span class="rating"> 4.0</span> (1000+ Ratings)</p>
+              <div class="dividerHeader"></div>
+              <p class="location">Jumeirah Towers, Dubai</p>
+              <p class="startGO" onclick="showOverlay()"><b>Start Group Order</b></p>
+              <img src="Assets/Icons/Avatar.svg" alt="" id="avatarImage" style="display: none;">
+          </section>
+
+          <section class="cell shrink">
+              <button class="invite-button" type="button">
+                  <img src="Assets/Icons/Heart.svg" alt="User Icon">
+                  Like
+              </button>
+          </section>
+      </section>
+   
+      <!--extra info-->
+      <section class="grid-x infoBar">
+
+        <section class="cell auto infoSet">
+          <img src="Assets/Icons/Information.svg" alt="User Icon">                             
+        </section>
+
+        <section class="cell auto infoSet">
+          <img src="Assets/Icons/Information2.svg" alt="User Icon">                             
+        </section>
+      </section>
+
+      <!-- Menu -->
+      <section class="grid-x Menu">
+        <div class="cell auto">
+          <h1>Menu</h1>
+        </div>  
+        <section class="grid-y">
+            <section class="quantityButton">
+              <img src="Assets/Icons/Container.svg" alt="User Icon">
+              <img src="Assets/Icons/Chevron Down cr-fr.svg" alt="User Icon">  
+            </section>
+        </section>
+    </section>
+     
+  <!-- Recommended -->
+    <section class="grid-x Recommened">
+      <div class="cell auto">
+        <h1>Recommended</h1>
+      </div>  
+      <section class="grid-y">
+          <section class="Reveal">
+            <img src="Assets/Icons/plusIcon.svg" alt="User Icon" id="toggleButton1">
+          </section>
+      </section>
+  </section>
+
+        <!--items-->
+        <section class="cartBreakdown">
+
+          <section class="itemdrop1">
+          <!-- item 1 -->
+          <section class="grid-x items">
+              <div class="cell auto">
+                <img src="Assets/Icons/Food Indicators.svg" alt="User Icon">
+                  <h1>McChicken</h1>
+                  <span  id="item1" class="itemPrice">12</span>
+                  <p>Chicken patty burger with lettuce and mayo and fresh buns </p>
+              </div>
+            <section class="grid-y">
+                <section class="imageDisplay">
+                  <img src="Assets/Icons/Image.svg" alt="User Icon" class="pics"> 
+                </section>
+                <section class="addImage1" style="display: none;">
+                  <span class ="minus">-</span>
+                  <span class ="num">01</span>
+                  <span class ="plus">+</span> 
+                </section>
+                <section class="addImageOne1">
+                  <p>+ Add</p>
+                </section>
+            </section>
+          </section>
+
+          <div class="dividerHeader"></div>
+          
+          <!-- item 2 -->
+          <section class="grid-x items">
+            <div class="cell auto">
+              <img src="Assets/Icons/Food Indicators.svg" alt="User Icon">
+                <h1 id="itemTitle">Spicy McChicken</h1>
+                <span  id="item2"class="itemPrice">18</span>
+                <p>Chicken patty burger with lettuce and mayo and fresh buns </p>
+            </div>
+            <section class="grid-y">
+                <section class="imageDisplay">
+                  <img src="Assets/Icons/Image.svg" alt="User Icon" class="pics"> 
+                </section>
+                <section class="addImage2" style="display: none;">
+                  <span class ="minus1">-</span>
+                  <span id="num1" class ="num1">01</span>
+                  <span class ="plus1">+</span> 
+                </section>
+                <section class="addImageOne2">
+                  <p>+ Add</p>
+                </section>
+            </section>
+         </section>
+        </section>
+
+
+      <!-- Snacks -->
+    <section class="grid-x Recommened">
+        <div class="cell auto">
+          <h1>Snacks</h1>
+        </div>  
+        <section class="grid-y">
+            <section class="Reveal">
+              <img src="Assets/Icons/plusIcon.svg" alt="User Icon" id="toggleButton2" >
+            </section>
+        </section>
+    </section>
+
+    <section class="itemdrop2">
+         <!-- item 3 -->
+         <section class="grid-x items">
+          <div class="cell auto">
+            <img src="Assets/Icons/Food Indicators.svg" alt="User Icon">
+              <h1>McChicken</h1>
+              <span class="itemPrice">AED 19</span>
+              <p>Chicken patty burger with lettuce and mayo and fresh buns </p>
+          </div>
+          <section class="grid-y">
+              <section class="imageDisplay">
+                <img src="Assets/Icons/Image.svg" alt="User Icon" class="pics">
+              </section>
+              <section class="addImage">
+              <p>+ Add</p>
+              </section>
+          </section>
+       </section>
+
+      <div class="dividerHeader"></div>
+
+      <!-- item 4 -->
+      <section class="grid-x items">
+        <div class="cell auto">
+          <img src="Assets/Icons/Food Indicators.svg" alt="User Icon">
+            <h1>McChicken</h1>
+            <span class="itemPrice">AED 19</span>
+            <p>Chicken patty burger with lettuce and mayo and fresh buns </p>
+        </div>
+        <section class="grid-y">
+            <section class="imageDisplay">
+              <img src="Assets/Icons/Image.svg" alt="User Icon" class="pics">
+            </section>
+            <section class="addImage">
+            <p>+ Add</p>
+            </section>
+        </section>
+      </section>
+</section>
+
+  </section>
+
+<section class="bottomMenu">
+      <!-- Snacks -->
+      <section class="grid-x Recommened">
+        <div class="cell auto">
+          <h1>Fried Chicken</h1>
+        </div>  
+        <section class="grid-y">
+            <section class="Reveal">
+              <img src="Assets/Icons/plusIcon.svg" alt="User Icon">
+            </section>
+        </section>
+    </section>
+      
+     <!-- Snacks -->
+     <section class="grid-x Recommened">
+      <div class="cell auto">
+        <h1>Rice Bowls</h1>
+      </div>  
+      <section class="grid-y">
+          <section class="Reveal">
+            <img src="Assets/Icons/plusIcon.svg" alt="User Icon">
+          </section>
+      </section>
+  </section>
+
+   <!-- Snacks -->
+   <section class="grid-x Recommened">
+    <div class="cell auto">
+      <h1>Sides</h1>
+    </div>  
+    <section class="grid-y">
+        <section class="Reveal">
+          <img src="Assets/Icons/plusIcon.svg" alt="User Icon">
+        </section>
+    </section>
+</section>
+    
+     <!-- Snacks -->
+     <section class="grid-x Recommened">
+      <div class="cell auto">
+        <h1>Beverages</h1>
+      </div>  
+      <section class="grid-y">
+          <section class="Reveal">
+            <img src="Assets/Icons/plusIcon.svg" alt="User Icon">
+          </section>
+      </section>
+  </section>
+</section>
+          
+        <!-- View cart -->
+        <div class="grid-x viewCart">
+          <div class="cell small-8">
+            <img class="cell" src="Assets/Icons/Details.svg" alt="Back Button">
+          </div>
+          <div class="cell small-4 cart">
+            <a href="Cart.html">
+            <img class="cell" src="Assets/Icons/Icon and Text.svg" alt="Back Button">
+            <a>
+          </div>
+        </div>
+
+          <!-- The overlay -->
+    <div class="overlay" id="overlay">
+      <div class="iframe-container">
+          <iframe src="groupOrder.html"></iframe>
+      </div>
+  </div>
+
+       
+        <script>
+
+        // JavaScript functions to show and hide the overlay
+        function showOverlay() {
+
+          setTimeout(function() {
+        var avatarImage = document.getElementById("avatarImage");
+        avatarImage.style.display = "block";
+    }, 3000);
+
+            document.getElementById("overlay").style.display = "block";
+            // Trigger the fade-in animation by changing the opacity to 1
+            setTimeout(function() {
+                document.getElementById("overlay").style.opacity = "1";
+            }, 10);
+            // Trigger the slide-up animation by changing the transform to translateY(0)
+            setTimeout(function() {
+                document.querySelector(".iframe-container").style.transform = "translateY(0)";
+            }, 10);
+        }
+
+        // Event listener to handle messages from the iframe (catalogue.html)
+        window.addEventListener("message", function(event) {
+            if (event.data === "closeOverlay") {
+                hideOverlayAndRedirect();
+            }
+        });
+
+        // JavaScript function to hide the overlay and redirect to "Cart.html"
+        function hideOverlayAndRedirect() {
+            // Trigger the slide-down animation by changing the transform to translateY(100%)
+            document.querySelector(".iframe-container").style.transform = "translateY(100%)";
+            // Wait for the slide-down animation to complete before hiding the overlay and redirecting
+            setTimeout(function() {
+                document.getElementById("overlay").style.opacity = "0";
+                document.getElementById("overlay").style.display = "none";
+                // // Redirect to "Cart.html"
+                // window.location.href = "Cart.html";
+            }, 300);
+        }
+
+
+        // Get a reference to the reveal icon and the dropdown section
+const toggleButton1 = document.getElementById("toggleButton1");
+const dropdownSection1 = document.querySelector(".itemdrop1");
+const toggleButton2 = document.getElementById("toggleButton2");
+const dropdownSection2 = document.querySelector(".itemdrop2");
+// Add a click event listener to toggle the visibility of the dropdown
+toggleButton1.addEventListener("click", () => {
+  if (dropdownSection1.style.display === "block") {
+        dropdownSection1.style.display = "none";
+        toggleButton1.classList.remove("active");
+        toggleButton1.src = "Assets/Icons/plusIcon.svg";
+    } else {
+        dropdownSection1.style.display = "block";
+        toggleButton1.classList.add("active");
+        toggleButton1.src = "Assets/Icons/minusIcon.svg";
+    }
+  });
+
+    // Add a click event listener to toggle the visibility of the dropdown
+toggleButton2.addEventListener("click", () => {
+  if (dropdownSection2.style.display === "block") {
+        dropdownSection2.style.display = "none";
+        toggleButton2.classList.remove("active");
+        toggleButton2.src = "Assets/Icons/plusIcon.svg";
+    } else {
+        dropdownSection2.style.display = "block";
+        toggleButton2.classList.add("active");
+        toggleButton2.src = "Assets/Icons/minusIcon.svg";
+    }
+  });
+         
+        </script>
+
+        <!--Zurb-->
+        <script src="js/vendor/jquery.js"></script>
+        <script src="js/vendor/what-input.js"></script>
+        <script src="js/vendor/foundation.js"></script>
+        <script src="js/Yalah/catalogue.js"></script>
+        <script src="js/Yalah/calculation.js"></script>
+        <script src="js/app.js"></script>
+
+    </body>
+</html>

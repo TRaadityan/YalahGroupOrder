@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Tracking</title>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="C:\Users\NAVYA SHARMA\Desktop\order tracking\Foundation-Sites-CSS\css\app.css">
+    <link rel="stylesheet" href="Foundation-Sites-CSS/css/foundation.css">
+    <link rel="stylesheet" href="Foundation-Sites-CSS/css/orderTracking.css">
+  </head>
+
+  <body>
+
+    <!--Top-->
+    <section class="Top-detail grid-x">
+        <button type="back-Button">
+            <img class="" src="Assets/Icons/NArrows.svg" alt="Back Button">
+        </button>
+        <div class="order-summary cell auto grid-y">
+          <span class="order-number">#3553-3542</span>
+          <span class="time-items">12:14pm • 4 items • AED 18</span>
+        </div>
+          <button class="help-button" type="button">
+              Help
+          </button>
+    </section>
+
+    <!--Illustration-->
+    <section class="orderIllustration">
+      <img class="chef-image" alt="" src="Assets/Icons/NChef Cooking Illustration.svg"/>
+    </section>
+
+    <section class="masterContent">
+      
+      <!--Delivery ETA-->
+      <section class="deliveryETA">
+        <h1>24 <span>Mins</span></h1>
+        <span class="Delivery-time">Delivery at 12:43 PM</span>
+
+        <section class="progress-bar">
+          <div class="progress-container">
+            <div class="progress"></div>
+          </div>
+        </section>
+        
+      </section>
+
+    <!--Order Details-->
+      <section>
+        <section class="box">
+          <div class="food-container">
+            <section class="Food-prepared cell auto">
+              <span>Food is being prepared</span>
+            </section>
+            <section>
+              <span class="Preparation-time">12:12 PM</span>
+            </section>
+          </div>
+        
+          <span class="call-box">
+            <button class="call-button" type="button">
+                <img src="Assets/Icons/Ncall.svg" alt="call">
+                <span>Restaurant</span>
+            </button>
+          </span>
+        </section>
+    </section>
+
+    <!--Address-->
+    <section class="box-address">
+          <h2>Delivering to Home</h2>
+          <span>8-23/123 Jumeriah Village, Street 73</span>
+    </section>
+
+    <!--Items-->
+
+    <section class="itemBreakdown">
+
+      <div class="cardBackground">
+        <h3>Items</h3>
+      </div>
+    
+      <section class="allItems">
+        <section class="orderedItem grid-x align-middle">
+          <div class="itemName cell auto"> 
+            <img src="Assets/Icons/Nnon veg.svg" alt="non veg indicator" class="non-veg-icon"> 
+            <span class="itemText">1 x Fries Large</span>
+          </div>
+          <span class="itemAmount">AED 4</span> 
+        </section>
+        <section class="orderedItem grid-x align-middle">
+          <div class="itemName cell auto"> 
+            <img src="Assets/Icons/Nnon veg.svg" alt="non veg indicator" class="non-veg-icon"> 
+            <span class="itemText">1 x Fries Large</span>
+          </div>
+          <span class="itemAmount">AED 4</span> 
+        </section>
+      </section>
+      
+    </section>
+
+    <!--Order Breakdown-->
+
+    <section class="orderDetails">
+      <div class="cardBackground">
+        <h3>Order Details</h3>
+      </div>
+      <div class="orderItem grid-x">
+        <span class="itemLabel cell auto">Item Total</span>
+        <span class="itemValue">AED 121</span>
+      </div>
+
+      <div class="orderItem grid-x">
+        <span class="itemLabel cell auto">Delivery Partner Fee</span>
+        <span class="itemValue">AED 5</span>
+      </div>
+
+      <div class="orderItem grid-x">
+        <span class="itemLabel cell auto">Taxes</span>
+        <span class="itemValue">AED 2</span>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="orderCalculation grid-x">
+        <span class="itemTotalLabel cell auto">Order Total</span>
+        <span class="itemTotalValue">AED <span class="itemV">126</span></span>
+      </div>
+  </section>
+    
+
+    <!--Payment Method-->
+
+    <section class="itemBreakdown">
+      <div class="cardBackground">
+        <h3>Payment Method</h3>
+      </div>
+    
+      <section class="allItems">
+        <section class="orderedItem grid-x align-middle">
+          <div class="itemName cell auto grid-x"> 
+            <div class="cardBox">
+              <img src="Assets/Icons/Ncard.svg" alt="visa card" class="visaCard"> 
+            </div>
+            <span class="itemText">•••• •••• •••• 1228</span>
+          </div>
+        </section>
+      </section>
+    </section>
+    </section>
+    
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Zurb-->
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./Zurb/css/foundation.css"> 
+        <link rel="stylesheet" href="./Zurb/css/cart.css">
+
+        <!--Font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+        <title> Cart </title>
+    </head>
+    
+    <body>
+        <!--Top CTA-->
+        <section class="closeTop grid-x">
+            <button onclick="goBack()" type="Backbutton">
+                <img class="cell auto" src="Assets/Icons/CIconback.svg" alt="Back Button">
+              </button>
+              <h1 class="cell auto">Cart</h1>
+              <button type="Heart">
+                <img class="cell auto" src="Assets/Icons/CHeart.svg" alt="Back Button">
+               </button>
+        </section>
+
+        <!--Group Order Overview-->
+        
+
+           <!--Order Details-->
+    <section class="orderDetails grid-y cell auto">
+      <section class="grid-x">
+          <section class="cell auto grid-y">
+              <span class="deliveringTo">Mc Donald’s</span>
+              <span class="deliveringAddress">Jumeriah Village  •  2.3km away</span>
+          </section>
+          <button class="textCTA">View menu</button>
+      </section>
+
+      <div class="divider"></div>
+
+      <section class="orderTotal grid-x">
+          <span class="orderT cell auto">Deliver to Home  •  20 Mins</span>
+          
+              <span class="currency">Change</span>
+              
+          </section>
+      </section>
+  </section>
+
+         
+        </section>
+        <!--ItemHeader-->
+        <section class="ItemHeader grid-x ">
+          <span class="cell auto">Your Items</span>
+          <button class="textcta" onclick="unhideHostDetails();" >Edit Guests</button>
+        
+        </section>
+        <!--Individual Cart Breakdown-->
+        <section class="cartBreakdown">
+          <div class="divider"></div>
+            <!--Host Details-->
+            <section class="hostDetails grid-x grid-margin-x cell">
+                <img src="Assets/Icons/CPerson=Adnan.svg" alt="User Image">
+                <div class="cell auto">
+                    <h2>Adnan J. (You)</h2>
+                    <p>2 Items  •  AED 34</p> 
+                </div>
+                <img src="Assets/Icons/CcollapseArrow.svg" alt="collapse-arrow">
+            </section>
+
+            <!--Item 1-->
+            <section class="grid-x items">
+                <img src="Assets/Icons/CFoodIndicatorsNonVeg.svg" alt="Non-Veg Icon">
+                <div class="cell auto">
+                    <h4>McChicken</h4>
+                    <span class="itemPrice">AED 19</span>
+                </div>
+                
+                <section class="grid-y">
+                    <section class="quantityButton">
+                        <button class="minus" type="decrement">
+                          <img src="Assets/Icons/CMinus Icon color.svg" alt="Minus Icon">
+                        </button>
+                        <span class="num">1</span>
+                        <button class="plus" type="increment">
+                          <img src="Assets/Icons/CPlus Icon Color.svg" alt="Plus Icon">
+                        </button>
+                      </section>
+                    <span class="quantityPrice">AED 19</span>
+                </section>
+            </section>
+
+            <!--Item 2-->
+            <section class="grid-x items">
+                <img src="Assets/Icons/CFoodIndicatorsNonVeg.svg" alt="Non-Veg Icon">
+                <div class="cell auto">
+                    <h4>Spicy McChicken</h4>
+                    <span class="itemPrice">AED 19</span>
+                </div>
+                
+                <section class="grid-y">
+                    <section class="quantityButton">
+                        <button class="minus1" type="decrement">
+                          <img src="Assets/Icons/CminusIcon.svg" alt="Minus Icon">
+                        </button>
+                        <span class="num1">1</span>
+                        <button class="plus1" type="increment">
+                          <img src="Assets/Icons/CplusIcon.svg" alt="Plus Icon">
+                        </button>
+                      </section>
+                    <span class="quantityPrice">AED 19</span>
+                </section>
+            </section>
+
+            <!--Add Preparation CTA-->
+            <button class="cell" type="tertiaryCTA">
+              <img src="Assets/Icons/CRegular plus.svg" alt="Plus Icon">
+              Add Preparation Instructions
+              <img src="Assets/Icons/CprepFile.svg" alt="File Icon" class="prepFile">
+          </button>
+         
+            <div class="divider"></div>
+          <section class="hostbox">
+            <!--Guest Details-->
+            <section class="hostDetails grid-x grid-margin-x cell" style="display: flex;">
+                <img src="Assets/Icons/CPerson=Kusmith.svg" alt="User Image">
+                <div class="cell auto">
+                    <h2>Kusmith Jain</h2>
+                    <p>2 Items  •  AED 34</p> 
+                </div>
+            </section>
+
+            <!--Item 1-->
+            <section class="grid-x items">
+                <img src="Assets/Icons/CFoodIndicatorsNonVeg.svg" alt="Non-Veg Icon">
+                <div class="cell auto">
+                    <h4>McChicken</h4>
+                    <span class="itemPrice">AED 19</span>
+                </div>
+                
+                <section class="grid-y">
+                    <section class="quantityButton">
+                        <button class ="minus2" type="decrement">
+                          <img src="Assets/Icons/CminusIcon.svg" alt="Minus Icon">
+                        </button>
+                        <span class ="num2">1</span>
+                        <button class ="plus2" type="increment">
+                          <img src="Assets/Icons/CplusIcon.svg" alt="Plus Icon">
+                        </button>
+                      </section>
+                    <span class="quantityPrice">AED 19</span>
+                </section>
+            </section>
+
+            <!--Item 2-->
+            <section class="grid-x items">
+                <img src="Assets/Icons/CFoodIndicatorsNonVeg.svg" alt="Non-Veg Icon">
+                <div class="cell auto">
+                    <h4>Spicy McChicken</h4>
+                    <span class="itemPrice">AED 19</span>
+                </div>
+                
+                <section class="grid-y">
+                    <section class="quantityButton">
+                        <button type="decrement">
+                          <img src="Assets/Icons/CMinus Icon color.svg" alt="Minus Icon">
+                        </button>
+                        <span>1</span>
+                        <button type="increment">
+                          <img src="Assets/Icons/CPlus Icon Color.svg" alt="Plus Icon">
+                        </button>
+                      </section>
+                    <span class="quantityPrice">AED 19</span>
+                </section>
+            </section>
+
+            <div class="divider"></div>
+          </section>
+            <!--Order Details-->
+            <section class="orderDetailsfinal">
+                <h2 class="orderTitle cell auto">Order Details</h2>
+                <div class="orderItem grid-x">
+                  <span class="itemLabel cell auto">Item Total</span>
+                  <span class="itemValue">AED 121</span>
+                </div>
+
+                <div class="orderItem grid-x">
+                  <span class="itemLabel cell auto">Delivery Partner Fee</span>
+                  <span class="itemValue">AED 5</span>
+                </div>
+
+                <div class="orderItem grid-x">
+                  <span class="itemLabel cell auto">Taxes</span>
+                  <span class="itemValue">AED 2</span>
+                </div>
+
+                <div class="divider"></div>
+       
+                <div class="orderCalculation grid-x">
+                  <span class="itemTotalLabel cell auto">Order Total</span>
+                  <span class="itemTotalValue">AED <span class="itemV">128</span></span>
+                </div>
+            </section>
+         </section>
+            
+      <!--Final details -->
+            <section class="finaldetails">
+              <section class="topAddress">
+                <div>
+                  <span class="finaladdress">Yalah Wallet Balance</span>
+                
+                  <button class="changeCTA">AED 245</button>
+                </div> 
+              </section>
+            
+            
+                
+                <section class="mainDetails grid-x">
+                  <div class="cell auto">
+                    <span class="Wallet">Order Total</span> <br>
+                    <span class="totalAED">AED 18</span>
+                  </div>
+                  <div class="checkoutContainer grid-x">
+                    <img src="Assets/Icons/CBank Card.svg" alt="Bank Card">
+                    <button class="checkoutCTA" onclick="redirectToPayment()">Checkout  </button>  
+                  </div>
+                </section>
+              </section>
+            </section>
+
+
+              <script>
+                // Function to handle the mainCTA section click event and redirect to payment.html
+                function redirectToPayment() {
+                  // Redirect to payment.html
+                  window.location.href = "payment.html";
+                }
+
+                  // Function to navigate back to the previous page
+                function goBack() {
+                  // Go back to the previous page in the browser's history
+                  window.history.back();
+                }
+
+                            // Function to hide the hostbox element
+                function hideHostDetails() {
+                  var hostDetailsSection = document.querySelector(".hostbox");
+                  if (hostDetailsSection) {
+                    hostDetailsSection.style.display = "none";
+                  }
+                }
+
+                // Function to unhide the hostbox element
+                function unhideHostDetails() {
+                  var hostDetailsSection = document.querySelector(".hostbox");
+                  if (hostDetailsSection) {
+                    hostDetailsSection.style.display = "block"; // You can also use "inline", "flex", "grid", etc. depending on the original display property of the element.
+                  }
+                }
+
+              </script>
+       
+
+        <!--Zurb-->
+        <script src="js/vendor/jquery.js"></script>
+        <script src="js/vendor/what-input.js"></script>
+        <script src="js/Yalah/cart.js"></script>
+        <script src="js/Yalah/calculation.js"></script>
+        <script src="js/vendor/foundation.js"></script>
+        <script src="js/app.js"></script>
+
+    </body>
+</html>

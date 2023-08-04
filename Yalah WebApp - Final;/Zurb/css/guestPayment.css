@@ -1,0 +1,123 @@
+body {
+    background-color: #F6FCFF;
+    font-family: 'Barlow', sans-serif;
+}
+
+h1 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #050609;
+    margin-bottom: 4px;
+    margin-top: -8px;
+    margin-left: 28px;
+}
+
+p {
+    color: #667B87;
+    margin-left: 28px;
+}
+
+h3 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #19202E;
+    align-items: center;
+    margin-bottom: 0;
+    margin-left: -20px;
+
+}
+/*Save Button*/
+
+button[type="submit"] {
+    color: #667B87;
+    font-size: 18px;
+    font-weight: 600;
+    background: linear-gradient(45deg, #543082, #694C9F);
+    border: 1px solid #C4D5DF;
+    border-radius: 6px;
+    height: 54px;
+    padding: 0 16px;
+    margin-bottom: 4px;
+    margin-top: 150px;
+    color: #FCFDFF;
+    margin-left: 28px;
+    margin-right: -20px;
+    width: calc(100% - 50px); 
+    box-sizing: border-box;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F8FAFF;
+    border-radius: 6px;
+    border: 1px solid #C4D5DF;
+    font-size: 18px;
+    font-weight: 600;
+    height: 54px;
+    padding: 0 16px;
+    margin-bottom: 4px;
+    line-height: 32px;
+    margin-top: 16px;
+    margin-bottom: 40px;
+    margin-left: 28px;
+    color: #474D58;
+    width: calc(100% - 56px); 
+    box-sizing: border-box; 
+}
+
+input[type="radio"] {
+    width: 20px; /* Adjust the width of the radio button */
+    height: 20px; /* Adjust the height of the radio button */
+    margin-right: 8px; /* Add spacing between radio buttons if needed */
+    vertical-align: middle;
+    stroke-width: 1px;
+}
+
+
+.left-text {
+    margin-right: auto;
+  }
+  
+  .right-text {
+    margin-left: auto;
+  }
+
+  .button:hover {
+    background-color: #F8FAFF;
+    border: 1px solid #C4D5DF;
+    color: #474D58;
+}
+
+/*Divider*/
+.divider {
+    border-top: 1px dashed #C4D5DF;
+    margin-bottom: 19px;
+    margin-top: -10px;
+    margin-left: 28px;
+    margin-right: 28px;
+    
+}
+
+.cell img {
+    padding-left: 28px;
+}
+
+.header h3 {
+    margin-left: 8px;
+  }
+
+.sticky-footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 28px;
+    position: fixed;
+}
+
+
+
+

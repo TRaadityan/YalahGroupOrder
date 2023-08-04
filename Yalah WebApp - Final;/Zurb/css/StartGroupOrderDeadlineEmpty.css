@@ -1,0 +1,213 @@
+/*Global*/
+body {
+    background-color: #F6FCFF; 
+    font-family: 'Barlow', sans-serif;
+}
+
+h1 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #050609;
+    margin-bottom: 4px;
+}
+
+p {
+    color: #667B87;
+}
+
+.allContent {
+    margin: 28px;
+    margin-top: 24px;
+}
+
+/*Header Details*/
+.header p .restaurantName {
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text-500, #474D58)
+
+}
+
+.header .location {
+    font-style: italic;
+    font-size: 12px;
+}
+
+.fullimage{
+    margin: 0;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.howTo {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0px;
+}
+
+.fullimage {
+    background: #EAF4FA;
+}
+
+/*Group Order Rules*/
+.groupOrderRules h3 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #667b87;
+    align-items: center;
+    margin-bottom: 0;
+}
+  
+.groupOrderRules p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #667b87;
+    margin-bottom: 0;
+}
+
+.groupOrderRules .cell.shrink {
+    margin-right: 0;
+}
+
+.groupOrderRules .grid-x.grid-margin-x.cell {
+    margin: 0px;
+}
+
+.groupOrderRules .cell.shrink {
+    margin-left: 0px
+}
+  
+/*Edit Arrow*/
+.groupOrderRules .icon-button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.groupOrderRules .icon-button img {
+    width: 16px;
+    height: 16px;
+    fill: #667b87;
+}
+
+/*Divider*/
+.divider {
+    border-top: 1px dashed #C4D5DF;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+/*Invite Guest*/
+.sticky-footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 28px;
+    position: fixed;
+}
+  
+button[type="primaryCTA"] {
+   
+.buttonWithImage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .leftAlignedText {
+    text-align: left;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .rightAlignedImage {
+    margin-left: 10px; 
+    float: right; 
+  }
+  
+    
+   
+    border-radius: 6px;
+    height: 46px;
+    padding: 0 16px;
+    margin-bottom: 0px;
+    text-align: left;
+    border: 1px solid var(--light-gray-600, #CFD5E5);
+    background: var(--light-gray-200, #F8FAFF);
+    
+}
+
+
+
+button[type="Save"] {
+    color: #F8FAFF;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 6px;
+    background: var(--primary-purple-700, #422668);
+    border: 1px solid #C4D5DF;
+    border-radius: 6px;
+    height: 54px;
+    padding: 0 16px;
+    margin-top: 450px;
+    margin-bottom: 4px;
+   
+}
+  
+/*Restaurant Location*/
+.restaurantDetails p {
+    line-height: 1;
+    margin-bottom: 28px;
+}
+
+.closeTop{
+    margin-top: 20px;
+    margin-left: 28px;
+    margin-bottom: 20px;
+}
+
+/* Responsive Desktop*/
+@media screen and (min-width: 64em) {
+
+    .masterContent {
+        width: 30%; /* Adjust the width as needed */
+        margin-left: auto;
+        background-color: #F6FCFF;
+        height: 120vh;
+      }
+
+    body {
+        background: rgba(52, 63, 70, 0.8);
+        margin: 0px;
+    }
+
+    .closeTop {
+        padding: 28px 28px 0px 28px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .orderDetails {
+        margin-bottom: 28px;
+    }
+
+    .sticky-footer {
+        position: sticky;
+        margin-top: 210px;
+        margin-bottom: 28px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+}

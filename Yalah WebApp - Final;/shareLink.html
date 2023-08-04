@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Zurb-->
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./Zurb/css/foundation.css"> 
+        <link rel="stylesheet" href="./Zurb/css/shareLink.css">
+
+        <!--Font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+        <title> Share </title>
+    </head>
+    
+    <body>
+      
+      <div class="overlay">
+        <section class="shareDrawer">
+          <img src="Assets/other/shareDrawer.png">
+        </section>
+      </div>
+
+      <script>
+
+const share = document.querySelector(".shareDrawer");
+
+share.addEventListener("click",()=>
+{
+  closeOverlay();
+});
+
+function closeOverlay() {
+    
+    parent.postMessage('closeOverlay', '*');
+}
+
+      </script>
+        <!--Zurb-->
+        <script src="js/vendor/jquery.js"></script>
+        <script src="js/vendor/what-input.js"></script>
+        <script src="js/vendor/foundation.js"></script>
+        <script src="js/Yalah/catalogue.js"></script>
+        <script src="js/Yalah/calculation.js"></script>
+        <script src="js/app.js"></script>
+
+    </body>
+</html>

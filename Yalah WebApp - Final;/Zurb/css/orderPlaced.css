@@ -1,0 +1,25 @@
+h3 {
+    color: var(--text-1000, #050609);
+    /* H3/Bold */
+    font-family: Barlow;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  span {
+    color: var(--text-500, #474D58);
+    /* P4/Regular */
+    font-family: Barlow;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.28px;
+  }
+  
+  
+  body {
+    background: var(--base-white, #FCFDFF);
+  }
+  

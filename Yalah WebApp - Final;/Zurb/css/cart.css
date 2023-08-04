@@ -1,0 +1,542 @@
+/*Global*/
+body {
+    background-color: #ffffff;
+    font-family: 'Barlow', sans-serif;
+}
+
+h1 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #667B87;
+}
+
+.deliveringTo{
+    color: var(--text-800, #0F131C);
+    font-family: Barlow;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+}
+
+    .deliveringAddress{
+    color: var(--text-500, #474D58);
+    font-family: Barlow;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+}
+
+.textCTA{
+    color: var(--primary-purple-600, #533082);
+    text-align: right;
+    /* P4/Bold */
+    font-family: Barlow;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+}
+
+.orderT{
+    color: var(--text-800, #0F131C);
+    font-family: Barlow;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+}
+
+.currency{
+    color: var(--primary-purple-600, #533082);
+    text-align: right;
+    font-family: Barlow;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+line-height: 20px; /* 142.857% */
+}
+
+p {
+    color: #667B87;
+}
+
+/*Header Details*/
+.header p .restaurantName {
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.header .location {
+    font-style: italic;
+    font-size: 12px;
+}
+
+  
+
+/*Divider*/
+.divider {
+    border-top: 1px dashed #C4D5DF;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+/*Cart Breakdown*/
+h2 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #667B87;
+}
+
+/*Cart Breakdown - Items*/
+.items {
+    font-family: "Barlow", sans-serif;
+    color: #667B87;
+}
+  
+.items h4 {
+    font-size: 16px;
+    font-weight: 600;
+}
+  
+.items .itemPrice {
+    font-size: 14px;
+    font-weight: 500;
+}
+  
+.items .quantityPrice {
+    font-size: 12px;
+    font-weight: 600;
+    color: #19202E;
+}
+  
+/*Buttons*/
+button[type="tertiaryCTA"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    background-color: #FCFDFF;
+    color: #533082;
+    border: 2px solid #DCE6FF;
+    box-shadow: 0px 0px 10px 2px rgba(215, 224, 241, 0.40);
+    border-radius: 6px;
+    padding: 0 16px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+}
+  
+  
+button[type="primaryCTA"] {
+    color: #667B87;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #F6FCFF;
+    border: 1px solid #C4D5DF;
+    border-radius: 6px;
+    height: 54px;
+    padding: 0 16px;
+    margin-bottom: 4px;
+}
+  
+button[type="secondaryCTA"] {
+    color: #667B87;
+    font-size: 18px;
+    font-weight: 600;
+    height: 54px;
+    padding: 0 16px;
+    margin-bottom: 20px;
+}
+
+  
+/*Header Spacing*/
+.header p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.header h1 {
+    margin-bottom: 4px;
+    padding-bottom: 0;
+    line-height: 1;
+}
+  
+/*Rules Spacing*/
+
+.groupOrderRules h3 {
+    margin-bottom: 2px;
+    padding-bottom: 0;
+    line-height: 1;
+}
+
+.groupOrderRules p {
+    margin-bottom: 0;
+}
+
+.groupOrderRules .auto{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.groupOrderRules .shrink {
+    margin-right: 0px;
+}
+
+/*Cart Breakdown Spacing*/
+.cartBreakdown h2 {
+    margin-bottom: 4px;
+    padding-bottom: 0;
+    line-height: 1;
+    font-size: 16px;
+    font-weight: 500;
+    color: #19202E;
+}
+
+.cartBreakdown{
+    margin: 28px 28px 20px 28px;
+}
+
+.cartBreakdown p {
+    margin-bottom: 0;
+    line-height: 1;
+    font-size: 14px;
+    color: #474D58
+}
+
+.cartBreakdown .auto {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.hostDetails .cell.auto {
+    padding-top: 3px;
+}
+
+section.cartBreakdown .hostDetails img[alt="collapse-arrow"] {
+    width: 24px;
+    height: 24px;
+}
+
+
+.hostDetails {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+  
+/*Cart Breakdown - Items Spacing*/
+.cartBreakdown .items h4 {
+    margin-bottom: 0;
+    line-height: 1;
+    font-size: 16px;
+}
+
+.cartBreakdown.items span {
+    line-height: 1;
+    font-size: 14px;
+}
+
+.cartBreakdown .hostDetails {
+    margin-bottom: 35px;
+}
+
+.items img[src="Assets/Icons/nonVegIcon.svg"] {
+    align-self: flex-start;
+    margin-bottom: 5px; /* Adjust this value as needed */
+}
+
+.cartBreakdown .items {
+    margin-bottom: 16px;
+}
+
+/* Quantity Button */
+.quantityButton {
+    background-color: #F8FAFF;
+    border: 2px solid #533082;
+    width: 100px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+}
+  
+.quantityButton button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+  
+.quantityButton button img {
+    width: 16px;
+    height: 16px;
+}
+  
+.quantityButton span {
+    font-size: 18px;
+    color: #533082;
+    font-weight: 600;
+}
+
+.cartBreakdown .grid-y {
+    align-items: center;
+}
+
+
+/*Order Details Spacing*/
+.orderDetails {
+    background-color: #F8FAFF;
+    border: 1px solid #CFD5E5;
+    color: #667B87;
+    font-size: 14px;
+    padding: 20px;
+    border-radius: 6px;
+    padding: 16px;
+    margin-bottom: 28px ;
+    
+}
+
+.orderDetailsfinal {
+    background-color: #F8FAFF;
+    border: 1px solid #CFD5E5;
+    color: #667B87;
+    font-size: 14px;
+    padding: 20px;
+    border-radius: 6px;
+    padding: 16px 16px 180px 16px;
+    margin-bottom: 28px ;
+}
+  
+.orderDetails .orderTitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+  
+.orderItem {
+    margin-bottom: 12px;
+}
+  
+.itemTotalLabel {
+    font-weight: 600;
+    font-size: 14px;
+}
+  
+.itemTotalValue {
+    font-weight: 600;
+    color: #192023;
+}
+
+  
+.orderDetails .itemValue {
+    font-weight: 500;
+}
+
+.itemV {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.orderItem {
+    align-items: center;
+}
+
+.orderCalculation {
+    align-items: center;
+}
+
+.orderDetails .divider {
+    border-top: 1px dashed #C4D5DF;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.orderDetails .orderTitle {
+    margin: 0px;
+    margin-bottom: 16px;
+}
+
+.orderDetails .itemLabel {
+    margin: 0px;
+}
+
+.orderDetails .itemTotalLabel {
+    margin: 0px;
+}
+
+/*Close Button*/
+.closeTop {
+    margin-bottom: 20px;
+    margin: 28px 28px 20px 5px;
+ }
+
+ h1.cell.auto {
+    text-align: center;
+    color: #19202E;
+}
+
+  /*Remove Button*/
+.Removebutton {
+    font-weight: 700;
+    font-size: 14px;
+    color: #BD3A29;
+  }
+
+  /*ItemHeader*/
+.ItemHeader span {
+    color: #667B87;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .ItemHeader{
+    margin: 28px 28px 20px 28px;
+  }
+
+  .grid-x > .auto {
+    width: auto;
+    color: #000;
+}
+
+.textcta {
+    font-weight: 700;
+    font-size: 14px;
+    color: #533082;
+   }
+
+  /*Restaurant details*/
+  .restaurantdetails{
+    background: #F8FAFF;
+        border: 2px solid #CFD5E5;
+  border-radius: 6px;
+  padding: 12px 16px;
+  margin: 28px 28px 20px 28px;
+  }
+
+.outletname {
+    color: #19202E;
+    font-weight: 600;
+    font-size: 14px;
+   } 
+
+.location{
+    color: #474D58;
+    font-weight: 400;
+    font-size: 12px;
+    }
+
+/*Finaldetails*/
+.finaldetails{
+    background: #EAF4FA;
+    border: 0px solid #C4D5DF;
+    border-radius: 6px;
+    /*Sticky Buttons*/
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 28px 28px 0px 28px;
+    margin: 0;
+    left: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+  }
+   
+ 
+.topAddress{
+    padding: 12px 28px;
+}
+
+  .finaladdress{
+    color: #19202E  ;
+    font-weight: 600;
+    font-size: 14px;
+   }
+
+   .finaladdressfull{
+    color: #474D58;
+    font-weight: 400;
+    font-size: 12px;
+   }
+
+   .changeCTA{
+    color: #19202E;
+    float: right;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+   }
+
+   .Wallet{
+    color: #ffffff;
+    font-size: 12px;
+    font-family: Barlow;
+   }
+
+   .WalletAED{
+    font-weight: 500;
+    font-size: 12px;
+    color: #ffffff; 
+    float: right; 
+   
+   }
+
+   .totalAED{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+   }
+   
+   .checkoutCTA{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    float: right; 
+   }
+
+
+ 
+   
+   .topAddress{
+    border-top: 2px solid #CFD5E5;
+    border-bottom: 2px solid #CFD5E5;
+    background-color: #F8FAFF;
+    
+   }
+
+   .WalletBalance{
+    border-radius: 6px 6px 0px 0px;
+    /* border-top: 1px solid #C4D5DF;
+    border-right: 1px solid #C4D5DF;
+    border-left: 1px solid #C4D5DF; */
+    background: #533082;
+    padding: 8px 16px;
+   }
+
+   .mainDetails{
+    padding: 8px 16px 16px 8px;
+    border-radius: 35px 35px 35px 35px;
+    background: var(--gradients-purple-gradient, linear-gradient(60deg, #543082 0%, #694C9F 100%));
+    border: 20px solid #FCFDFF; */
+   }
+
+   .mainCTA{
+    padding: 20px 28px;
+   }
+
+   section.mainCTA {
+    background: #ffffff;
+}
+
+span.Wallet.cell.auto {
+    color: #ffffff;
+}       
